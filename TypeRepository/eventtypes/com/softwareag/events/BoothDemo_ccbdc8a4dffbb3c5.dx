@@ -1,0 +1,8 @@
+com.softwareag.events.BoothDemo : event
+    @EventId(path = "eventId")
+{
+    testCase     : string
+    eventId      : string
+    senderThread : string
+    body         : string
+}

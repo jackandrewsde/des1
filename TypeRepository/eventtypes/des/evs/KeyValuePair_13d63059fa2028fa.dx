@@ -1,0 +1,6 @@
+des.evs.KeyValuePair : event
+{ 
+    key: string
+    value : string
+}
+
