@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="TwoEventTypes" targetNamespace="http://namespaces.softwareag.com/webMethods/EDA" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <implementation.generic type="eventtype acdl asset implementation type"/>
+    <buildInfo name="eventtypebuilddatumName1" value="eventtypebuildDatumValue1"/>
+    <asset name="des.evs.DynamicServiceConfiguration_482832d387209c68.dx" displayName="des.evs.DynamicServiceConfiguration" isDeployable="true">
+        <dependsOn>EDA:des.evs.DynamicServiceConfiguration_fac3c11b79b30a8e.json</dependsOn>
+        <dependsOn>EDA:des.evs.KeyValuePair_13d63059fa2028fa.dx</dependsOn>
+    </asset>
+    <asset name="des.evs.KeyValuePair_13d63059fa2028fa.dx" displayName="des.evs.KeyValuePair" isDeployable="true">
+        <dependsOn>EDA:des.evs.KeyValuePair_44ec9c4937e9acc6.json</dependsOn>
+    </asset>
+    <property name="eventtypeinfoassetPropertyName1" many="true" isSecure="false" displayName="This is the event type info property value1">
+        <value>eventtypeinfopropertyValue1</value>
+        <value>eventtypepropertyValue1</value>
+    </property>
+</asset_composite>
