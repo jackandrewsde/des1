@@ -1,7 +1,0 @@
-com.softwareag.events.EventRoutingTestBundleStateChanged : event
-{
-    testCase   : string
-    eventId    : int32
-    body       : string
-    bundleType : string
-}
